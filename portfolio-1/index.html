@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Web Fundamentals Workshop</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper-->
+			<div id="wrapper">
+
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#" class="icon solid fa-home"><span>Home</span></a>
+						<a href="#work" class="icon solid fa-folder"><span> Line & Scatter Chart </span></a> 
+						<a href="#work2" class="icon solid fa-folder"><span> Bar Chart </span></a> 
+						<a href="#work3" class="icon solid fa-folder"><span> Pie Chart </span></a> 
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Me -->
+							<article id="home" class="panel intro">
+								<header>
+									<h1> 109305501 廖語歆 </h1>
+									<p> </p>
+									<h3> 資料視覺化 Data Visualization </h3>
+									<p> </p>
+									<h6> 期中作業</h6>
+								</header>
+							</article>
+
+						<!-- Work -->
+							<article id="work" class="panel">
+								<header>
+									<h2> Line & Scatter Chart </h2>
+								</header>
+								<h3>
+									近十年人口年增率(單位為‰)
+								</h3>
+								<p>
+
+								</p>
+								<div id="myGraph1"></div>
+								<p>
+									洞悉：女性人口年增率每年都高於男性人口年增率，兩者的趨勢整體而言差不多。
+									再者從民國105年起，人口年增率整體有下降的趨勢，其中108年至110年下降最為嚴重，並在110年時人口年增率到達最低，這可能和疫情的衝擊有關。
+									儘管民國111年人口年增率顯著地上升，年增率依舊是負數，人口呈現負成長。
+								</p>
+								<p>
+									製作方法說明：以講義提供的程式碼為基礎修改，再自行上網查閱資料以製作出理想的圖表，並使用行政院內政部所提供的真實資料，最後根據自己所學知識進行資料分析。
+								</p>
+								<p>
+									資料來源：政府資料開放平台 / 行政院內政部。
+								</p>
+							</article>
+
+						<!-- Work2 -->
+							<article id="work2" class="panel">
+								<header>
+									<h2> Bar Chart </h2>
+								</header>
+								<h3>
+									主要國家平均每人國內生產毛額 GDP (以美元為單位)
+								</h3>
+								<p>
+									
+								</p>
+								<div id="myGraph2"></div>
+								<p>
+									洞悉：新加坡平均每人國內生產毛額成長許多，在民國100年超越美國成為第一，且持續拉開與其他國家的差距。中國則和其餘國家有明顯地差距，持續位居最後；而台灣在上述國家中僅高於中國，排名第六。
+									整體而言只有日本的平均每人國內生產毛額在民國100年達到高峰後持續下降，其餘國家均持續上升。
+								</p>
+								<p>
+									製作方法說明：以講義提供的程式碼為基礎修改，再自行上網查閱資料以製作出理想的圖表，並使用經濟部統計處整理的真實資料，最後根據自己所學知識進行資料分析。
+								</p>
+								<p>
+									資料來源：經濟部統計處 經濟部統計數據分析系統 / 各國統計月報。
+								</p>
+							</article>
+
+						<!-- Work3 -->
+						<article id="work3" class="panel">
+							<header>
+								<h2> Pie Chart </h2>
+							</header>
+							<h3>
+								進口主要國家(以美元為單位)
+							</h3>
+							<p>
+								
+							</p>
+							<div id="myGraph3"></div>
+							<p>
+								中國包含中國大陸與香港，東協則包含新加坡、馬來西亞、菲律賓、泰國、印尼、越南、汶萊、寮國、緬甸及柬埔寨等國家。
+							</p>
+							<p>
+								洞悉：民國100年前日本為台灣最大的進口國家，中國次之；而在105年後中國成為第一，日本位居第二。美國、歐洲和東協各自佔約15%左右的進口金額，差距不大。
+							</p>
+							<p>
+								製作方法說明：以講義提供的程式碼為基礎修改，再自行上網查閱資料以製作出理想的圖表，並使用財政部統計處所提供的真實資料，最後根據自己所學知識進行資料分析。
+							</p>
+							<p>
+								資料來源：經濟部統計處 經濟部統計數據分析系統 / 財政部統計處「進出口貿易統計」。
+							</p>
+						</article>
+
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+			<script src="https://cdn.plot.ly/plotly-2.26.0.min.js"></script>
+			<script src="HW1/data.js"></script>
+			<script src="HW1/main.js"></script>
+			<script src="HW2/data.js"></script>
+			<script src="HW2/main.js"></script>
+			<script src="HW3/data.js"></script>
+			<script src="HW3/main.js"></script>
+			
+
+
+	</body>
+</html>
